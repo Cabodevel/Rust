@@ -30,3 +30,9 @@ fn main() {
 fn sum_one(nmb: i32) -> i32 {
     nmb + 1
 }
+
+#[test]
+
+fn sum_one_returns_expected(){
+    assert_eq!(sum_one(1), 2)
+}
