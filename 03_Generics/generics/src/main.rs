@@ -14,6 +14,7 @@ fn main() {
     point.show_values()
 }
 
+
 struct Point {
     x:i32,
     y:i32
@@ -28,4 +29,8 @@ impl Point {
 struct GenericPoint<T, U> {
     x:T,
     y:U
+}
+
+fn show_generic_values<T,U>(point:GenericPoint<T,U>){
+    //TODO
 }
